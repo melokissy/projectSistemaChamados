@@ -1,0 +1,44 @@
+object formPrincipal: TformPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Sistema de chamados'
+  ClientHeight = 682
+  ClientWidth = 1300
+  Color = clBtnFace
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  OldCreateOrder = False
+  WindowState = wsMaximized
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnlFundo: TPanel
+    Left = 185
+    Top = 0
+    Width = 1115
+    Height = 682
+    Align = alClient
+    BevelOuter = bvNone
+    Color = clSilver
+    ParentBackground = False
+    TabOrder = 0
+    ExplicitLeft = 568
+    ExplicitTop = 344
+    ExplicitWidth = 185
+    ExplicitHeight = 41
+  end
+  object pnlMenuLateral: TPanel
+    Left = 0
+    Top = 0
+    Width = 185
+    Height = 682
+    Align = alLeft
+    BevelOuter = bvNone
+    TabOrder = 1
+    ExplicitLeft = 104
+    ExplicitTop = 72
+    ExplicitHeight = 41
+  end
+end
